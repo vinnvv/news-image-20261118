@@ -1,11 +1,11 @@
 # News Image: 18 November 2026
 
-[![make.fun](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118)
-[![rank](https://make.fun/badge/news-image-20261118/vinnvv/news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118)
-[![reward](https://make.fun/badge/news-image-20261118/vinnvv/news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118)
+[![News Image: 18 November 2026](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118)
+[![Rank](https://make.fun/badge/news-image-20261118/vinnvv/news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118)
+[![Reward](https://make.fun/badge/news-image-20261118/vinnvv/news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118)
 
-One image summing up the world's news of Wednesday, 18 November 2026: the Xi–Putin meeting in Shenzhen at APEC as Trump lands in China, the US strikes on Qeshm Island and Iran's drone retaliation, Ukraine's second-day strike on the Kerch Bridge, Peltola's Alaska win giving Democrats a 56–44 Senate majority, Nvidia's record $115.8bn quarter, and Cyclone Akvan bearing down on Andhra Pradesh.
+Entry for the make.fun bounty "Sum up 18 November's world news in one image": a code-drawn one-page newspaper, "The World", summing up Wednesday 18 November 2026 in 44 verified stories across six continents, led by the Shenzhen summit and with a day-in-numbers strip. Every picture on the page is drawn in code (HTML and inline SVG rendered to PNG); it contains no photographs.
 
-The front page is drawn entirely with code: typography and hand-built SVG diagrams on a newsprint layout. `main.ts` copies the finished image to the output directory.
+`main.ts` (Node, standard library only) copies `entry.png` to the output directory and writes it there as `entry.png`. Run it twice and the outputs are byte-identical.
 
 Built for [make.fun](https://make.fun). Referral code: `9j79nw8m`.
